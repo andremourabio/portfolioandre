@@ -1,0 +1,77 @@
+/* Estilos básicos para o corpo do documento */
+body {
+    font-family: Arial, sans-serif; /* Fonte principal do site */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    display: flex; /* Utiliza flexbox para layout */
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    min-height: 100vh; /* Altura mínima de 100% da altura da viewport */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto branca */
+    padding: 1em 0; /* Espaçamento interno no topo e na base */
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style-type: none; /* Remove marcação padrão de lista */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimento */
+    display: flex; /* Utiliza flexbox para layout */
+    justify-content: center; /* Centraliza os itens */
+}
+
+/* Estilos para os itens da lista de navegação */
+nav ul li {
+    margin: 0 1em; /* Espaçamento horizontal entre os itens */
+}
+
+/* Estilos para os links de navegação */
+nav ul li a {
+    color: #fff; /* Cor do texto branca */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    flex: 1; /* Permite que o main cresça para ocupar o espaço disponível */
+    padding: 2em; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos para o formulário de contato */
+form {
+    display: flex; /* Utiliza flexbox para layout */
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    align-items: center; /* Centraliza os itens */
+}
+
+/* Estilos para os rótulos dos campos do formulário */
+form label {
+    margin-top: 1em; /* Espaçamento superior */
+}
+
+/* Estilos para os campos de entrada e área de texto */
+form input, form textarea {
+    width: 80%; /* Largura de 80% do contêiner pai */
+    padding: 0.5em; /* Espaçamento interno */
+    margin-top: 0.5em; /* Espaçamento superior */
+}
+
+/* Estilos para o botão de envio */
+form button {
+    margin-top: 1em; /* Espaçamento superior */
+    padding: 0.5em 2em; /* Espaçamento interno */
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto branca */
+    border: none; /* Remove borda */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+}
+
+/* Estilos para o botão de envio ao passar o mouse */
+form button:hover {
+    background-color: #555; /* Muda a cor de fundo ao passar o mouse */
+}
